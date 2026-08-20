@@ -88,7 +88,7 @@ SELECT
 FROM 
     OPENROWSET
         (
-            BULK 'bijaystoragedatalake.dfs.core.windows.net/silver/AdventureWorks_Sales/',
+            BULK 'https://bijaystoragedatalake.dfs.core.windows.net/silver/AdventureWorks_Sales/',
             FORMAT = 'PARQUET'
         ) as QUER1
 
@@ -103,7 +103,7 @@ SELECT
 FROM 
     OPENROWSET
         (
-            BULK 'https://bijaystoragedatalake.dfs.core.windows.net/silver/AdventureWorks_SUbCategories/',
+            BULK 'https://bijaystoragedatalake.dfs.core.windows.net/silver/AdventureWorks_Product_Subcategories/',
             FORMAT = 'PARQUET'
         ) as QUER1
 
