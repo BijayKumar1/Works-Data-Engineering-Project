@@ -1,4 +1,8 @@
-------------------------
+ONE  scipt  file for: filename :   CREATE SCHEMA
+     CREATE SCHEMA gold; 
+..........................
+ ANOTHER  script file  for  : file name   CREATE VIEWS GOLD 
+ ------------------------
 -- CREATE VIEW CALENDAR
 ------------------------
 CREATE VIEW gold.calendar
